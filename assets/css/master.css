@@ -1,9 +1,10 @@
 body{
     background-color: #FFBA00;
     font-family: 'Inconsolata', monospace;
-}
+    }
 #main_part{
     text-align: center;
+    margin-top:60px;
 }
 
 .container{
