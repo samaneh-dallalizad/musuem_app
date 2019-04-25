@@ -35,3 +35,57 @@ body{
 }
 
 footer{text-align:center; }
+
+#gallry_details img{
+    width: 50%;
+    min-width: 15rem;
+
+}
+#comments .user_comment{
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 50%;
+    min-width: 15rem;
+}
+#comment_form{
+    margin: 2rem auto;
+    width: 50%;
+    min-width: 15rem;
+    padding: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+#comment_form .form_group{
+    margin:1rem 0 2rem 0;
+    text-align: center;
+}
+#comment_form .form_group label{width:100%;display:block;}
+#comment_form .form_group input[type=text],
+#comment_form .form_group textarea{
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    min-height: 2rem;
+    font-size: 1.2rem;
+}
+#comment_form .form_group textarea{
+    vertical-align: top;
+    height: 5rem;
+}
+#comment_form .form_group .dark_btn{
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background-color: black;
+}
+#comment_form .form_group .dark_btn:hover{
+    background-color:#fff;
+    border:1px solid #000;
+    color:#000;
+}
