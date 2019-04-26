@@ -1,5 +1,17 @@
+let url_string = window.location.href;
+let url = new URL(url_string);
+let page = url.searchParams.get("page");
 
- 
+let pagePic=document.getElementById('gallry_details').getElementsByTagName( 'img' )[0];
+    pagePic.setAttribute('src',data.artObjects[page].webImage.url);
+console.log(pagePic);
+
+
+
+
+
+
+
 document.getElementById('send_msg').addEventListener('click', function(event){
     event.preventDefault();
     const name=document.getElementById('name');
@@ -20,9 +32,7 @@ document.getElementById('send_msg').addEventListener('click', function(event){
         comment.appendChild(h3);
         comment.appendChild(p);
         document.getElementById("comments").appendChild(comment); 
-    }
-
-       
+    }       
       
 });
 

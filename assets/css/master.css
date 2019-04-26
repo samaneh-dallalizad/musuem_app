@@ -33,13 +33,10 @@ body{
     max-height: 20rem;
     margin: 1rem
 }
-
 footer{text-align:center; }
-
 #gallry_details img{
     width: 50%;
     min-width: 15rem;
-
 }
 #comments .user_comment{
     margin: 1rem auto;
